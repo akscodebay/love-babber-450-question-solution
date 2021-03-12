@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Solution {
+public class PairSum {
 	
 	int getPairsCount(int[] arr, int n, int k) {
 		int count = 0;
@@ -35,7 +35,7 @@ public class Solution {
 		for(int i=0; i<n; i++){
 			arr[i] = sc.nextInt();
 		}
-		System.out.println(new Solution().getPairsCount(arr, n, k));
+		System.out.println(new PairSum().getPairsCount(arr, n, k));
 		sc.close();
 	}
 
